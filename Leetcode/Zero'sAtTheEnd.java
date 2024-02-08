@@ -1,3 +1,5 @@
+//Rearranging All the 0's at the end of the array eg: [1,0,2,0]----->[1,2,0,0]
+
 import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {

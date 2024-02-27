@@ -1,3 +1,14 @@
+/* To run your Java program with command-line arguments in IntelliJ IDEA, you can follow these steps:
+Open your project in IntelliJ IDEA
+Edit the run configuration:
+Go to the top menu and select "Run" > "Edit Configurations..."
+Click the "+" icon in the top-left corner and select "Application" to create a new run configuration.
+In the "Name" field, enter a name for your configuration (e.g., "Matrix Addition").
+In the "Main class" field, enter the fully qualified name of your main class (Main in your case).
+In the "Program arguments" field, enter the command-line argument (the size of the matrices, e.g., 3).
+Apply and run the configuration:
+Click "Apply" and then "OK" to save your run configuration.
+Click the green "Run" button in the top-right corner to run your program with the specified command-line argument. */
 public class Main {
     public static void main(String[] args) {
         if(args.length!=1){
